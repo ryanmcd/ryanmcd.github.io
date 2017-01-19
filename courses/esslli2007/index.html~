@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>ESSLLI 2007 - Data Driven Dependency Parsing</title>
+</head>
+<body>
+<br>
+<h1>Introduction to Data Driven Dependency Parsing</h1>
+<h3>At <a href="http://www.cs.tcd.ie/esslli2007/">ESSLLI 2007</a> in Dublin, August 13-17th</h3>
+
+<h3>Instructors: <a href="http://www.ryanmcd.com">Ryan McDonald</a>
+and <a href="http://stp.lingfil.uu.se/~nivre/">Joakim Nivre</a></h3>
+
+<b>Desription</b>: Syntactic dependency representations of sentences have a long history in theoretical linguistics. Recently, they have found renewed interest in the computational parsing community due to their efficient computational properties and their ability to naturally model non-nested constructions, which is important in freer-word order languages such as Czech, Dutch, and German. This interest has led to a rapid growth in multilingual data sets and new parsing techniques. One modern approach to building dependency parsers, called data-driven dependency parsing, is to learn good and bad parsing decisions solely from labeled data, without the intervention of an underlying grammar. This course will cover:
+
+<ul>
+    <li>Dependency parsing (history, definitions, motivation, etc.)
+    <li>Grammar-driven versus data-driven parsing
+    <li>Brief intro to learning algorithms: Generative, Memory-based, SVM, etc.
+    <li>Greedy parsing algorithms: Covington, Nivre, Yamada and Matsumoto
+    <li>Graph-based algorithms: MST algorithms (Eisner, McDonald et al)
+    <li>Other approaches
+    <li>Empirical results and applications
+    <li>Available software
+</ul>
+<b>Slides</b> (subject to change from Aug 13-17)
+<ul>
+    <li><a href="esslli1.pdf">Lecture 1</a> (Intro to dependency parsing)
+    <li><a href="esslli1.pdf">Lecture 2</a> (Intro to data-driven methods and ML)
+    <li><a href="esslli1.pdf">Lecture 3</a> (Transition-based dependency parsing)
+    <li><a href="esslli1.pdf">Lecture 4</a> (Graph-based dependency parsing)
+    <li><a href="esslli1.pdf">Lecture 5</a> (Other approaches, empirical eval, available software, treebanks, etc.)
+</ul>
+<b>Coarse Reader</b>
+<ul>
+    <li><a href="reader.pdf">Final version</a>
+</ul>
+<b>Links</b>
+<ul>
+    <li><a href="http://w3.msi.vxu.se/users/nivre/ACLslides.pdf">ACL-COLING Tutorial</a> (Nivre and Kubler)
+    <li><a href="http://depparse.uvt.nl/depparse-wiki/">Dependency Parsing Wiki</a>
+</ul>
+</body>
+</html>

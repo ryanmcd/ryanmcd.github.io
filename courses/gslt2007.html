@@ -1,0 +1,65 @@
+<html><head><title>GSLT: Machine Learning: Generalized Linear Classifiers</title></head><body>
+<h1>Generalized Linear Classifiers in NLP</h1>
+
+<p>For the better part of a decade machine learning methods like maximum entropy
+and support vector machines have been a major part of many NLP applications
+such as parsing, semantic role labeling, ontology induction, machine translation, and summarization.
+Many of these models fall into the class of <i>Generalized Linear Classifiers</i>,
+which are characterized by defining a prediction boundary as a linear combination of
+input features and their weights. In this course we will cover many of the important
+aspects of generalized linear classifiers including: training methods, min error vs. max likelihood,
+distribution free methods, online vs. batch, generative vs. discriminative, structured models, and extensions
+beyond linear predictors through kernels. The course assumes familiarity with basic concepts from statistics, calculus
+and linear algebra.</p>
+
+<p>Date: October 22nd, 2007; Lecturer: <a href="http://www.ryanmcd.com">Ryan McDonald</a></p>
+
+<p>Outline (subject to change)<br>
+<table border="1"> <tbody><tr> <td> 10-12 </td><td>
+Introduction, feature representations, loss functions, perceptron, margin, SVMs, logistic regression (Max Ent)</td><td>
+</td></tr><tr> <td> 13-15
+</td><td> Kernels, structured learning including conditional random fields, applications </td><td>  </td></tr><tr> <td> 15-17
+</td><td> Left-overs, practical</td><td>  </td></tr></tbody></table> </p>
+
+<h2><a href="gslt2007/gslt2007.pdf">Slides (pdf)</a>[latest slides, will change]</h2>
+
+<h2>Practical</h2>
+
+<p>An implementation of the perceptron algorithm and some extensions <a href="gslt2007/gslt2007_practical.pdf">handout</a>.
+Starter code available <a href="gslt2007/perceptron.tar.gz">here</a>, data sets included.</p>
+<p>
+You can find the solution <a href="gslt2007/answer_gslt.tar.gz">here</a>
+</p>
+
+
+<h2>Project suggestions</h2>
+
+
+<ul>
+  <li> Build a structured perceptron algorithm for entity or part-of-speech tagging
+  <li> Download and test various linear classifiers for standard NLP problems
+(<a href="http://mallet.cs.umass.edu">MALLET</a> (log. reg. (max. ent.)), 
+<a href="http://www.csie.ntu.edu.tw/~cjlin/libsvm/">libsvm</a> or <a href="http://svmlight.joachims.org/">svm light</a>)
+  <li> Download and compare some structured learning algorithms (MALLET (CRF),
+<a href="http://www.seas.upenn.edu/~strctlrn/StructLearn/StructLearn.html">StructLearn</a> (Perceptron, MIRA),
+<a href="http://svmlight.joachims.org/">StructSVM</a>)
+  <li> Create a kernalized version of the perceptron algorithm
+  <li> Parsing: show how one can use perceptron and/or CRFs for structured learning of context-free parsing through CKY and inside-outside algorithms
+  <li> Prove the equivalence of logistic regression and maximum entropy, i.e., write out both objective functions and show that they are maximized with precisely the same parameters
+  <li> Email me about possible data sets (see my webpage for an address).
+</li>
+</ul>
+
+<h2>Literature and resources</h2>
+
+<ul>
+  <li> Slides from ESSLLI lecture <a href="http://www.ryanmcd.com/courses/esslli2007/esslli2.pdf">pdf</a>
+  <li> SVM tutorials <a href="http://www.support-vector.net/tutorial.html">html</a>
+  <li> Tutorials by Dan Klein <a href="http://www.cs.berkeley.edu/~klein/">html</a>. Bottom of the page. Check out "Introduction to Classification", "Max Margin Methods for NLP", and "Maxent Models ..."
+</ul>
+
+
+<a href="http://w3.msi.vxu.se/%7Enivre/teaching/gslt/ml07.html">Back to course page</a>
+
+
+</body></html>

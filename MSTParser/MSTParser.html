@@ -1,0 +1,80 @@
+<html>
+<title>MSTParser Download</title>
+<body>
+
+<h1>!!UPDATE!!</h1>
+
+This page will soon be obsolete. The new
+<a href="http://sourceforge.net/projects/mstparser">MSTParser page</a> is now a sourceforge project.<br><br>
+This new project was started by <a href="http://comp.ling.utexas.edu/jbaldrid/">Jason Baldrige</a> and
+<a href="http://www.ryanmcd.com">Ryan McDonald</a> to make it easier for new features to be added
+to the parser.<br><br>
+
+Code will be available soon. Try it out <a href="http://sourceforge.net/projects/mstparser">here</a>!!
+
+<h1>MSTParser (v0.2)</h1>
+
+This is a simple web-page to download the implementations
+of the parsers described in:<br><br>
+
+<b>Non-Projective Dependency Parsing using Spanning Tree Algorithms</b><br>
+R. McDonald, F. Pereira, K. Ribarov and J. Hajic<br>
+HLT-EMNLP, 2005<br><br>
+
+<b>Online Large-Margin Training of Dependency Parsers</b><br>
+R. McDonald, K. Crammer and F. Pereira<br>
+ACL, 2005<br><br>
+
+<b>Online Learning of Approximate Dependency Parsing Algorithms</b><br>
+R. McDonald and F. Pereira<br>
+EACL, 2006<br><br>
+
+The parser is implemented in java.<br><br>
+
+<b>New:</b> Version 0.2 uses second-order edge features (see EACL paper above).<br>
+<b>New:</b> Version 0.1 has the ability to produce typed (or labeled) trees.<br><br>
+
+Please view the README file to learn about usage and input/output
+format.<br>
+
+<h2>Downloads</h2>
+<ul>
+<li><a href="MSTParser.tar.gz">Download parser</a></li>
+<li><A href="README">View the README file</a></li>
+</ul>
+
+<h2>FAQ</h2>
+<ul>
+<li>
+<b>What character encoding does the parser use?</b><br>
+<i>It is hard coded for Unicode (UTF8) in correspondence with the
+<a href="http://nextens.uvt.nl/~conll/">CoNLL-X shared task</a>. You can
+grep "UTF8" and replace all occurances with whatever encoding you want.</a></i>
+</li>
+<li>
+<b>Can the parser use CoNLL-X input format?</b><br>
+<i>Not yet. However, I have include some easy to use python scripts to convert
+between CoNLL and MSTParser formats. They are in the scripts directory.</i>
+<li>
+<b>Can the parser produce non-tree dependency graphs?</b><br>
+<i>Not yet. This will be part of the next release.</i>
+</li>
+<li>
+<b>Is the edge labeler any good?</b><br>
+<i>This is somewhat complicated. The parser currently jointly predicts dependencies
+and labels at once. This is nice since it allows the information from both
+decisions to simultaneously be used. However, the labeler is forced to obey
+any locality constraints of the dependency parser (single edge or pairs of edges).
+I have found that it is often better to have a post-processing edge labeler that
+can have a larger scope for features. It is not difficult to create this and
+any classifier can be used. I suggest <a href="http://mallet.cs.umass.edu">MALLET</a>.
+I will make a post-processing labeler available in the next version.</i>
+</li>
+</ul>
+
+Questions: ryantm at cis dot upenn dot edu<br><br>
+
+<br>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+A:link { color: #22316C; background-color: #FFFFFF }
+A:visited { color: #22316C; background-color: #FFFFFF }
+A:hover { color: #22316C; text-decoration: none; background-color: #FFFFFF }
+
+body,table,td,th,div { font-family: 'Optima', 'Bitstream Vera Sans', sans-serif;
+		       line-height: 120%;
+		       font-size: 12px; font-weight: normal; 
+		       color: #000000;
+		       margin-top: 0px; margin-bottom: 0px; 
+		       background-color: #FFFFFF }
+
+ul,li { font-family: 'Optima', 'Bitstream Vera Sans', sans-serif; line-height: 120%;
+	font-size: 12px; font-weight: normal;
+	background-color: #FFFFFF }
+
+.page{ padding: 5px; margin-left: auto; margin-right: auto; width: 610px;}
+
+.title{ width: 600px; font-size: 12px; font-weight: bold; background-color: #17202A; 
+        padding: 5px; line-height: 100%; color: #FFFFFF; }
+
+.content{ width: 600px; background-color: #FFFFFF; padding: 5px }
+
+.bold{ font-size: 12px; font-weight: bold; }
