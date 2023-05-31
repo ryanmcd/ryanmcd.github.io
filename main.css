@@ -15,9 +15,9 @@ ul,li { font-family: 'Optima', 'Bitstream Vera Sans', sans-serif; line-height: 1
 
 .page{ padding: 5px; margin-left: auto; margin-right: auto; width: 610px;}
 
-.title{ width: 600px; font-size: 14px; font-weight: bold; background-color: #17202A; 
+.title{ width: 1000px; font-size: 14px; font-weight: bold; background-color: #17202A; 
         padding: 5px; line-height: 100%; color: #FFFFFF; }
 
-.content{ width: 600px; background-color: #FFFFFF; padding: 5px }
+.content{ width: 1000px; background-color: #FFFFFF; padding: 5px }
 
 .bold{ font-size: 14px; font-weight: bold; }
