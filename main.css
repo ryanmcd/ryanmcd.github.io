@@ -4,20 +4,20 @@ A:hover { color: #22316C; text-decoration: none; background-color: #FFFFFF }
 
 body,table,td,th,div { font-family: 'Optima', 'Bitstream Vera Sans', sans-serif;
 		       line-height: 120%;
-		       font-size: 14px; font-weight: normal; 
+		       font-size: 16px; font-weight: normal; 
 		       color: #000000;
 		       margin-top: 0px; margin-bottom: 0px; 
 		       background-color: #FFFFFF }
 
 ul,li { font-family: 'Optima', 'Bitstream Vera Sans', sans-serif; line-height: 120%;
-	font-size: 14px; font-weight: normal;
+	font-size: 16px; font-weight: normal;
 	background-color: #FFFFFF }
 
-.page{ padding: 5px; margin-left: auto; margin-right: auto; width: 1010px;}
+.page{ padding: 10px; margin-left: auto; margin-right: auto; width: 1010px;}
 
-.title{ width: 1000px; font-size: 14px; font-weight: bold; background-color: #17202A; 
-        padding: 5px; line-height: 100%; color: #FFFFFF; }
+.title{ width: 1000px; font-size: 16px; font-weight: bold; background-color: #17202A; 
+        padding: 10px; line-height: 100%; color: #FFFFFF; }
 
-.content{ width: 1000px; background-color: #FFFFFF; padding: 5px }
+.content{ width: 1000px; background-color: #FFFFFF; padding: 10px }
 
-.bold{ font-size: 14px; font-weight: bold; }
+.bold{ font-size: 16px; font-weight: bold; }
